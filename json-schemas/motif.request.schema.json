@@ -1,5 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://raw.githubusercontent.com/github-vipera/MOTIF-MAM/master/json-schemas/motif.request.schema.json#",
   "type": "object",
   "required" : ["uri", "secure"],
   "properties" : {
@@ -13,4 +14,3 @@
         }
   }
 }
-
