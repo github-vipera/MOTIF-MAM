@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://raw.githubusercontent.com/github-vipera/MOTIF-MAM/master/json-schemas/motif.request.schema#",
   "type": "object",
-  "required" : ["secure"],
+  "required" : ["uri","secure","pluginName"],
   "properties" : {
         "uri" : {
           "type" : "string",
