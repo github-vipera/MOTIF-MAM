@@ -8,6 +8,10 @@
           "type" : "string",
           "description" : "the json call URI"
         },
+        "pluginName" : {
+          "type" : "string",
+          "description" : "the MOTIF plugin name"
+        },
         "secure" : {
           "type" : "boolean",
           "description" : "the call must be secure and user must be logged in"
