@@ -2,19 +2,15 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://raw.githubusercontent.com/github-vipera/MOTIF-MAM/master/json-schemas/motif.request.schema#",
   "type": "object",
-  "required" : ["uri","secure","pluginName"],
   "properties" : {
         "uri" : {
           "type" : "string",
           "description" : "the json call URI"
         },
-        "pluginName" : {
-          "type" : "string",
-          "description" : "the MOTIF plugin name"
-        },
         "secure" : {
           "type" : "boolean",
           "description" : "the call must be secure and user must be logged in"
         }
-  }
+  },
+  "required" : ["uri","secure"]
 }
