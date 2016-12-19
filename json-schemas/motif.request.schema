@@ -20,5 +20,5 @@
           "description" : "API call description"
         }
   },
-  "required" : ["uri","secure"]
+  "required" : ["version","uri","secure"]
 }
