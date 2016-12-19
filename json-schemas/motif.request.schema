@@ -5,11 +5,15 @@
   "properties" : {
         "uri" : {
           "type" : "string",
-          "description" : "the json call URI"
+          "description" : "The json call URI"
         },
         "secure" : {
           "type" : "boolean",
-          "description" : "the call must be secure and user must be logged in"
+          "description" : "The call must be secure and user must be logged in"
+        },
+        "description" : {
+          "type" : "string",
+          "description" : "API call description"
         }
   },
   "required" : ["uri","secure"]
