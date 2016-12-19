@@ -5,7 +5,8 @@
   "properties" : {
         "version" : {
           "type" : "string",
-          "description" : "API call version"
+          "description" : "API call version",
+          "pattern" : "^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)$"
         },
         "uri" : {
           "type" : "string",
