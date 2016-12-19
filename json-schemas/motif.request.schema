@@ -3,6 +3,10 @@
   "id": "https://raw.githubusercontent.com/github-vipera/MOTIF-MAM/master/json-schemas/motif.request.schema#",
   "type": "object",
   "properties" : {
+        "version" : {
+          "type" : "string",
+          "description" : "API call version"
+        },
         "uri" : {
           "type" : "string",
           "description" : "The json call URI"
