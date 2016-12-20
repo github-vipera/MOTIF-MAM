@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "id": "https://raw.githubusercontent.com/github-vipera/MOTIF-MAM/master/json-schemas/motif.request.schema#",
   "type": "object",
+  "version" : "0.1.0",
   "properties" : {
         "version" : {
           "type" : "string",
